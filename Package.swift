@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ActionSheetPicker",
+    name: "ActionSheetPicker-3.0",
     platforms: [.iOS(.v9)],
     products: [
         .library(
@@ -15,7 +15,8 @@ let package = Package(
         .target(
             name: "CoreActionSheetPicker",
             path: "CoreActionSheetPicker/CoreActionSheetPicker/Pickers",
-            publicHeadersPath: "include"
+            publicHeadersPath: "include",
+            cSettings: [.headerSearchPath("CoreActionSheetPicker/CoreActionSheetPicker/Pickers/include")]
         )
     ],
     swiftLanguageVersions: [.v5]
