@@ -15,8 +15,7 @@ let package = Package(
         .target(
             name: "CoreActionSheetPicker",
             path: "CoreActionSheetPicker/CoreActionSheetPicker/Pickers",
-            publicHeadersPath: "include",
-            cSettings: [.headerSearchPath("CoreActionSheetPicker/CoreActionSheetPicker/Pickers")]
+            publicHeadersPath: "include"
         )
     ],
     swiftLanguageVersions: [.v5]
