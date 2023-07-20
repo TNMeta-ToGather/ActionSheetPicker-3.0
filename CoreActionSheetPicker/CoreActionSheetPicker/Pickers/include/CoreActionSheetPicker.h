@@ -43,4 +43,4 @@ FOUNDATION_EXPORT const unsigned char CoreActionSheetPickerVersionString[];
 #import "ActionSheetLocalePicker.h"
 #import "ActionSheetStringPicker.h"
 #import "ActionSheetMultipleStringPicker.h"
-#import "SWActionSheet"
+#import "SWActionSheet.h"
